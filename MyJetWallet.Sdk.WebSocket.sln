@@ -1,0 +1,18 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJetWallet.Sdk.WebSocket", "src\MyJetWallet.Sdk.WebSocket\MyJetWallet.Sdk.WebSocket.csproj", "{D01089A5-6E97-44CA-AB91-323B1344B93B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D60BB632-A2E4-4C20-96EE-AF2DA036110F}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		.github\workflows\ci-test.yml = .github\workflows\ci-test.yml
+		.github\workflows\notify_errors.yaml = .github\workflows\notify_errors.yaml
+		.github\workflows\release-api-client.yml = .github\workflows\release-api-client.yml
+		.github\workflows\update_nuget.yaml = .github\workflows\update_nuget.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
